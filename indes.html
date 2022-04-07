@@ -6,37 +6,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Food Ordering</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./index.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,900;1,300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./base.css">
+    <link rel="stylesheet" href="./index.css">
 </head>
-<script src="./index.js"></script>
+
 <body>
-    <div class="header">
-        <a href="#" class="main-logo">
-            <i class="fa-solid fa-utensils"></i>
+    <header>
+
+        <a href="#" class="logo">
+            <i class="fas fa-utensils"></i>
             N10
         </a>
-
-        <div class="navbar">
-            <a href="#home">Home</a>
-            <a href="#dishes">Dishes</a>
-            <a href="#about">About</a>
-            <a href="#menu">Menu</a>
-            <a href="#review">Review</a>
-            <a href="#order">Order</a>
+    
+        <nav class="navbar">
+            <a class="active" href="#home">home</a>
+            <a href="#dishes">dishes</a>
+            <a href="#about">about</a>
+            <a href="#menu">menu</a>
+            <a href="#review">review</a>
+            <a href="#order">order</a>
+        </nav>
+    
+        <div class="icons">
+            <i class="fas fa-bars" id="menu-bars"></i>
+            <i class="fas fa-search" id="search-icon"></i>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
         </div>
     
-        <div class="navbar-icons">
-            <i class="fa-solid fa-bars bars"></i>
-            <i class="fa-solid fa-magnifying-glass search-icon"></i>
-            <a href="#" class="fa-solid fa-heart"></a>
-            <a href="#" class="fa-solid fa-cart-shopping"></a>
-        </div>
-    </div>
+    </header>
 
-   
+    <script src="./index.js"></script>
 </body>
 </html>
