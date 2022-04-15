@@ -10,7 +10,6 @@ let navLinks = document.querySelectorAll('header .navbar a');
 
 window.onscroll = () =>{
 
-  menu.classList.remove('fa-times');
   navbar.classList.remove('active');
 
   section.forEach(sec =>{
@@ -30,6 +29,22 @@ window.onscroll = () =>{
   });
 
 }
+
+var swiper = new Swiper(".mySwiper", {
+  spaceBetween: 30,
+  centeredSlides: true,
+  speed: 600,
+  parallax: true,
+  autoplay: {
+    delay: 3500,
+    disableOnInteraction: true,
+  },
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  loop: true
+});
 
 document.querySelector('#search-icon').onclick = () =>{
   document.querySelector('#search-form').classList.toggle('active');
