@@ -1,0 +1,2 @@
+Các thư viện hiệu ứng sử dụng: 
+Swiper.js
