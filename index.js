@@ -46,6 +46,32 @@ var swiper = new Swiper(".mySwiper", {
   loop: true
 });
 
+var swiper = new Swiper(".review-slider", {
+  spaceBetween: 20,
+  centeredSlides: true,
+  speed: 600,
+  parallax: true,
+  autoplay: {
+    delay: 3500,
+    disableOnInteraction: false,
+  },
+  breakpoints: {
+    0: {
+        slidesPerView: 1,
+    },
+    640: {
+      slidesPerView: 2,
+    },
+    768: {
+      slidesPerView: 2,
+    },
+    1024: {
+      slidesPerView: 3,
+    },
+  },
+  loop:true
+});
+
 document.querySelector('#search-icon').onclick = () =>{
   document.querySelector('#search-form').classList.toggle('active');
 }
