@@ -47,7 +47,7 @@ var swiper = new Swiper(".mySwiper", {
 });
 
 var swiper = new Swiper(".review-slider", {
-  spaceBetween: 20,
+  spaceBetween: 30,
   centeredSlides: true,
   speed: 600,
   parallax: true,
@@ -69,7 +69,7 @@ var swiper = new Swiper(".review-slider", {
       slidesPerView: 3,
     },
   },
-  loop:true
+  loop: true
 });
 
 document.querySelector('#search-icon').onclick = () =>{

@@ -281,13 +281,6 @@
     position: relative;    
 }
 
-.review .slide .fa-quote-right{
-    position: absolute;
-    top:2rem; right:2rem;
-    font-size: 6rem;
-    color:#ccc;
-}
-
 .review .slide .user{
     display: flex;
     gap:1.5rem;
@@ -318,3 +311,4 @@
     line-height: 1.8;
     color:var(--light-color);
 }
+
